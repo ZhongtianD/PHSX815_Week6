@@ -45,7 +45,7 @@ if __name__ == "__main__":
     G = Gaussian()
     def f(x):
         return G.Gaussian_pdf(x)
-    Sample = random.uniform(low=a, high=b,N)
+    Sample = np.random.uniform(low=a, high=b, size=N)
     F_val = f(Sample)
     I_M = (b-a)*np.mean(F_val)
     

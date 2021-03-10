@@ -27,7 +27,7 @@ if __name__ == "__main__":
         p = sys.argv.index('-N')
         Ns = int(sys.argv[p+1])
         if Ns > 10:
-            N = N
+            N = Ns
             
     if '-a' in sys.argv:
         p = sys.argv.index('-a')
